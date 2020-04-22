@@ -1,0 +1,56 @@
+// body {
+//   background: url(../images/image.jpg) no-repeat center;
+//   background-size: cover;
+// }
+// #wrapper {
+//   max-width: 70rem;
+//   margin: 0.5rem auto;
+//   box-shadow: 0 0 15px #000;
+//   background: #fff;
+// }
+// header,
+// nav,
+// main,
+// footer {
+//   max-width: 60rem;
+//   margin: 0 auto;
+//   box-shadow: 0 0 15px #000;
+// }
+nav {
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  height: 6.5vh;
+  ul {
+    width: 70%;
+  }
+  ul li {
+    border: none;
+  }
+}
+/*------------main ---------------*/
+main {
+  section {
+    max-width: 60rem;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 1.8rem;
+    margin: 1rem 0 0.5rem $gutter;
+  }
+  h3 {
+    font-size: 1.4rem;
+  }
+  .gallery {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .gallery-box {
+    margin: 1rem;
+  }
+  .blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
